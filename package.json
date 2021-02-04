@@ -1,0 +1,21 @@
+{
+  "name": "backend-todo",
+  "version": "1.0.0",
+  "description": "a complete todo app using node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Fadimatou",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7"
+  }
+}
